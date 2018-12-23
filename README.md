@@ -16,3 +16,5 @@ Unit testing the code:
 1. Download the app folder
 2. Open the app folder in your CLI
 3. Run `bundle` to install all required Ruby gems
+4. Enter irb and `load lib/person.rb` to test
+** NOTE: open up the app folder to see what unit tests, classes, and methods are available for testing
