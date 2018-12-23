@@ -1,15 +1,18 @@
- As a User       
- In order to make an withdrawal      
- The ATM needs to have funds
+# **ATM emulator**
+-------
 
-As an ATM operator          
-In order for the right person to make a withdrawal     
-I want each person to have an separate account
+This is a simple ATM emulator built in Ruby. It allows users to create an account, make deposits, and withdraw funds, similar to a real-life ATM.
 
-As a ATM operator           
-In order ensure that an Acccount holder can only withdraw funds that he has balance for           
-I want to allow a withdrawal only if there are sufficient funds in the account
+## Tech stack
+-------
+Programming language:
+* Ruby
 
-As a User               
-In order to know if my withdrawal was successful or unsuccessful               
-I want to receive a message with my withdrawal details
+Unit testing the code:
+* Rspec 
+
+## How to install & use
+-------
+1. Download the app folder
+2. Open the app folder in your CLI
+3. Run `bundle` to install all required Ruby gems
